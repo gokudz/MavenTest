@@ -95,12 +95,14 @@ public class logindata {
 			 
 			 b.cstreet().sendKeys("2108 E South Blvd");
 			 b.czip().sendKeys("94536");
+		/*
 			 b.ccity().sendKeys("fremont");
 			 
 			//to select state in dropdown box
 			 Select s = new Select(b.cstate());
 			 s.selectByValue("AL");
 			 
+			*/ 
 			 b.cphone().sendKeys("8166593950");
 			 b.cemail().sendKeys("tharun1387@gmail.com");
 			 //credit card details

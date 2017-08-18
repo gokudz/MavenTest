@@ -121,7 +121,7 @@ public class logindata {
 			 b.creditcardClick().click();
 			
 			 
-		/*	
+			
 			 String Actualtext= b.catax().getText(); 
 			 String expected ="$169.43";
 			 assertThat(expected).isEqualTo(Actualtext);
@@ -132,7 +132,7 @@ public class logindata {
 			 String expected1 ="$$2,506.43";
 			 assertThat(expected1).isEqualTo(Actualtext1);
 			 System.out.print("total amount  is correct");
-	*/
+
 	}
 
 	

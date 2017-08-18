@@ -16,8 +16,8 @@ WebDriver driver;
 	By lastname = By.xpath("..//*[@id='shippinglastname']");
 	By street = By.xpath(".//*[@id='shippingaddress1']");
 	By zip = By.xpath(".//*[@id='shippingpostalcode']");
-	By city = By.xpath(".//*[@id='shippingcity']");
-	By state =By.xpath(".//*[@id='shippingstate_1']");
+	//By city = By.xpath(".//*[@id='shippingcity']");
+	//By state =By.xpath(".//*[@id='shippingstate_1']");
 	By phone = By.xpath(".//*[@id='shippingphonenumber']");
 	By email = By.xpath(".//*[@id='emailAddress']");
 	
@@ -41,7 +41,7 @@ WebDriver driver;
 	{
 		return driver.findElement(zip);
 	}
-	public WebElement ccity()
+	/*public WebElement ccity()
 	{
 		return driver.findElement(city);
 	}
@@ -50,6 +50,7 @@ WebDriver driver;
 	{
 		return driver.findElement(state);
 	}
+	*/
 	public WebElement cphone()
 	{
 		return driver.findElement(phone);
